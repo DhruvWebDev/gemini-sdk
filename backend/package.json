@@ -1,0 +1,18 @@
+{
+  "name": "gemini-sdk",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.1.25",
+    "@google/genai": "^0.3.1",
+    "ai": "^4.1.61",
+    "dotenv": "^16.4.7"
+  }
+}
